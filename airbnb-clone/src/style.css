@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    height: 70px;
+    display: flex;
+    padding: 20px 36px;
+    box-shadow: 0px 2.9px 7.5px rgba(0, 0, 0, 0.1);
+}
+
+section{
+    padding: 20px;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    /* margin-left: auto; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.hero-grid{
+    /* max-width: 800px; */
+    /* margin-left: auto; */
+    width: 70em;
+    align-self: center;
+    margin-top: 20px;
+}
+
+.hero-header{
+    margin-bottom: 16px;
+    font-size: 4rem;
+    margin-left: 50px;
+}
+
+.hero-text{
+    margin-top: 0;
+    font-size: 1.3rem;
+    margin-left: 50px;
+
+}
+
+.cards-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+    margin-left: 50px;
+}
+
+.card{
+    width: 240px;
+    font-size: 12px;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-image{
+    width: 100%;
+    border-radius: 9px;
+    margin-bottom: 9px;
+}
+
+.card-title{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-stats{
+    display: flex;
+    align-items: center;
+}
+
+.card-star{
+    height: 14px;
+}
+
+.gray{
+    color: gray;
+}

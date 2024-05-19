@@ -1,0 +1,84 @@
+:root{
+    --backgroundColor: #1B262C;
+    /* --backgroundColor: #212a44; */
+    /* --secondaryColor: #3282B8; */
+    --secondaryColor: #00382d;
+    
+}
+
+body{
+    font-family: 'Mooli', sans-serif !important;   
+    /* font-family: 'Josefin Sans', sans-serif; */
+    background-color: var(--backgroundColor) !important;
+    color: ghostwhite !important;
+}
+
+.navbar{
+    /* background-color: #0c3b5a; */
+    background-color: #006d65;
+    color: ghostwhite !important;
+}
+
+.navbar .collapse .navbar-nav li .active{
+
+    border-radius: 12px;
+    /* margin-right: 25px; */
+    background-color: var(--secondaryColor);
+}
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+
+/* LOGIN PAGE */
+
+.loginForm button{
+    background-color: var(--secondaryColor);
+    color: ghostwhite
+}
+
+.loginForm button:hover{
+    /* background-color: ghostwhite;
+    color: var(--secondaryColor); */
+    background-color: #6C63FF;
+    /* color: var(--backgroundColor); */
+    color: ghostwhite;
+}
+
+.loginForm .googleLogin a{
+    background-color: #BBE1FA;
+    color: var(--backgroundColor);
+}
+
+.loginForm .googleLogin a:hover{
+    background-color: #6C63FF;
+    /* color: var(--backgroundColor); */
+    color: ghostwhite;
+}
+
+.loginForm #registerRedirect{
+
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+
+/* USER PAGE */
+
+.userDetails{
+    border-left: 2px solid gray;
+}
+
+/* FOOTER */
+
+.footer{
+    background-color: #006d65;
+}
+
+.footer p{
+    color: rgb(184, 184, 184);
+}
